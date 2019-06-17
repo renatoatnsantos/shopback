@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 30%;
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+
+.squeeze {
+    background: #40596b;
+    height: 1000px;
+    position: relative;
+    overflow: hidden ;
+}
+
+.squeeze-content {
+    background: #f2f2f2;
+    padding-bottom: 36px;
+    border-radius: 0 0 40px 40px;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+}
+
+.header-info > div > .nike {
+    float: left;
+}
+
+.header-info > div > .notification {
+    float: right;
+}
+
+.header-info h3 {
+    display: block;
+}
+
+.grid-3 {
+    width: 33%;
+    float: left;
+}
+
+.grid-2 {
+    width: 50%;
+    float: left;
+}
+
+.bottle {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.circle {
+    background-image: url('../images/Ellipse.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info-system{
+    list-style: none;
+    text-align: right;
+    margin: 0;
+}
+
+.info-system > li{
+    display : inline-block;
+    padding: 0 4px;
+}
+
+.phone-info {
+    padding: 10px 20px 20px;
+}
+
+.bottle-content > span {
+    display: inline-block;
+}
+
+.top-position {
+    animation-name: top;
+    animation-duration: 0.9s;
+    top: -580px;
+    position: absolute;
+    width: 100%;
+}
+
+.bottom-position {
+    animation-name : bottom;
+    animation-duration: 0.9s;
+}
+
+@keyframes top {
+    0%   {position : absolute; top: 0px; width: 100%}
+    100% {position : absolute; top: -580px; width: 100%}
+}
+
+@keyframes bottom {
+    0%   {position : absolute; top: -696px; width: 100%}
+    100% {position : absolute; top: 0px; width: 100%}
+}
+
+.img-bottle {
+    transform: rotate(-10deg);
+    margin-left: 8px;
+}
+
+.point-notification {
+    position: absolute;
+    right: 19px;
+    top: -24px;
+    color: red;
+    font-size: 22px;
+}
+
+.sticky {
+    top: 0;
+    position: fixed;
+    background: #f2f2f2;
+    padding: 8px 20px;
+    border-radius: 0 0 38px 38px;
+    width: 27%;
+    display: block!important;
+}
+
+.header-info {
+    padding: 20px 20px;
+}
+
+.info-value {
+    padding: 0px 20px;
+}
+
+.info-value > span > h3 {
+    margin: 0;
+}
+
+.info-value > span > p {
+    margin: 8px 0;
+    line-height: 15px;
+}
+
+.info-price {
+    color: #29be66;
+    font-weight: 400;
+    margin: 0;
+    font-size: 22px;
+}
+
+.info-text {
+    color: #76848b;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 9px 0 0 0;
+}
+
+.info-header {
+    color: #242c37;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 600!important;
+}
+
+.bottle {
+    color: #242c37;
+}
+
+.bottle-content span:nth-child(1) {
+    padding-top: 14px;
+}
+
+#main-info {
+    padding: 260px 20px 0px 20px;
+    position: relative;
+    z-index: 0;
+    display: table;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    font-size: 11px;
+    color : #fff;
+    font-weight: 100;
+}
+
+.left-position {
+    animation-name: left;
+    animation-duration: 3s;
+    display: none;
+}
+
+@keyframes left {
+    0%   {position : absolute; left: 144px; }
+    100% {position : absolute; left: 0; }
+}
+
+.right-position {
+    animation-name: right;
+    animation-duration: 3s;
+    left : 400px;
+}
+
+@keyframes right {
+    0% {position: absolute;left: 0;}
+    100% {position: absolute;left: 448px;}
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #2d4658;
+    margin: -2px 0;
+}
+
+#myBar {
+    width: 65%;
+    height: 3px;
+    background-color: #ffffff;
+}
+
+#myBar2 {
+    width: 80%;
+    height: 3px;
+    background-color: #ffffff;
+}
+
+#myBar3 {
+    width: 30%;
+    height: 3px;
+    background-color: #ffffff;
+}
+
+.g22 {
+    width: 22%;
+}
+
+.g58 {
+    width: 58%;
+    padding-top: 11px;
+}
+
+.g20 {
+    width: 20%;
+    text-indent: 22px;
+}
+
+.progress-bar > span {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.features {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.h-pattern {
+    font-weight: 500;
+    font-size: 15px;
+    color : #fff;
+}
+
+.d-list {
+    padding-left: 17px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.des-text {
+    padding-top: 10px;
+}
+
+.star-list > li {
+    display: inline-block;
+    padding: 0 4px;
+}
+
+.star-list li:last-child {
+    position: relative;
+    top: -3px;
+}
+
+.star-list {
+    padding-left: 0;
+}
+
+.rating {
+    padding-top: 10px;
+}
+
+.btn {
+    padding: 0 20px;
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: 27%;
+}
+
+.btn > button {
+    border: none;
+    padding: 16px 30px;
+    border-radius: 25px;
+    background: #29be66;
+    width: 100%;
+}
+
+.chat {
+    float: left;
+}
+
+.shopping {
+    float: right;
+}
+
+.shopping > a , .chat > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    top: -3px;
+}
+
+.line {
+    text-align: center;
+}
+
+.header-sticky {
+    text-indent: 18px;
+    padding: 6px 0;
+    float: left;
+    font-size: 19px!important;
+}
+
+.current > img {
+    border: 1px solid #b1b1b1;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.bottle-content {
+    padding-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    #sticky {
+        padding: 10px 20px 0 20px;
+        width: 90%;
+    }
+    .btn {
+        width: 89%;
+    }
+
+}
+
